@@ -1,5 +1,11 @@
-::before,
+/* ::before,
 ::after {
+  box-sizing: border-box;
+} */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -41,7 +47,7 @@ p {
   flex-direction: row-reverse;
   justify-content: center;
   border-radius: 20px;
-  max-width: 1200px;
+  max-width: 980px;
   margin: 0 auto;
 
   /* height: 100%; */
@@ -382,9 +388,10 @@ h3 {
     padding: 0 10px;
     margin: 0 auto;
   }
-  .my-photo {
-    order: #000 solid;
-  }
+  /* .my-photo {
+
+    border: 1px solid #000;
+  } */
 }
 
 /* ----- Print PDF ---------*/
@@ -410,7 +417,7 @@ h3 {
     overflow: hidden;
     display: flex;
 
-    zoom: 0.848;
+    zoom: 0.845;
   }
 
   .main-content {
