@@ -39,7 +39,7 @@ resume-website/
 
 View the project online:
 
-[Live Demo](https://YOUR-USERNAME.github.io/resume-website/)
+[Live Demo](https://serdiukserhii.github.io/resume-website/)
 
 ## 📥 Installation
 
