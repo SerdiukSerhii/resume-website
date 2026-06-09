@@ -1,8 +1,3 @@
-/* ::before,
-::after {
-  box-sizing: border-box;
-} */
-
 *,
 *::before,
 *::after {
@@ -49,8 +44,6 @@ p {
   border-radius: 20px;
   max-width: 980px;
   margin: 0 auto;
-
-  /* height: 100%; */
   background-color: #f0f0f5;
 }
 
@@ -58,7 +51,6 @@ p {
 
 .main-content {
   padding: 20px 20px 20px 40px;
-
   box-sizing: border-box;
   height: 100%;
 }
@@ -66,11 +58,11 @@ p {
 /* Sidebar */
 
 .sidebar {
-  background-color: #c1d5fa;
+  width: 370px;
   border-radius: 20px 0 0 20px;
   padding-bottom: 40px;
   box-sizing: border-box;
-  width: 370px;
+  background-color: #c1d5fa;
 }
 
 .sidebar-content {
@@ -79,7 +71,7 @@ p {
 }
 
 .my-photo {
-  border-top-left-radius: 16px;
+  border-top-left-radius: 20px;
 }
 
 /* Contacts */
@@ -96,7 +88,6 @@ p {
   color: #2979ff;
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
   text-decoration-line: underline;
 }
 
@@ -127,10 +118,8 @@ p {
 }
 
 .skills-list-item {
-  /* color: #161d2a; */
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
 }
 
 /* main content-info */
@@ -139,7 +128,6 @@ p {
   color: #000;
   font-weight: 700;
   font-size: 45px;
-  /* line-height: 55px; */
   line-height: 1.1;
   letter-spacing: 4px;
   margin-top: 0;
@@ -168,11 +156,8 @@ p {
 
 .my-descr {
   color: #000;
-  /* color: #595959; */
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
-
   width: 100%;
   max-width: 800px;
   text-align: justify;
@@ -206,42 +191,33 @@ p {
   color: #000;
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
-
   width: 100%;
   max-width: 800px;
   text-align: justify;
   hyphens: auto;
+  margin-bottom: 6px;
 }
 
 .my-projects-item-link {
   color: #005fff;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 24px; */
   text-decoration: underline;
 }
 
 .my-projects-item-tech {
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
-
   width: 100%;
   max-width: 800px;
+  margin-bottom: 4px;
 }
 
 .my-projects-desc {
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
   text-align: justify;
   hyphens: auto;
-  margin-bottom: 8px;
-}
-
-.cafe-individ {
-  margin-bottom: 6px;
 }
 
 .margin {
@@ -293,11 +269,8 @@ p {
 }
 
 .work-experience-duties-item {
-  /* color: #595959; */
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
-
   width: 100%;
   max-width: 800px;
   text-align: justify;
@@ -305,12 +278,9 @@ p {
 }
 
 .work-exp-item {
-  /* color: #595959; */
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 24px; */
   text-align: justify;
-  /* hyphens: auto; */
   margin-bottom: 16px;
 }
 
@@ -384,14 +354,11 @@ h3 {
   }
 
   .sidebar {
+    border-radius: 20px;
     width: 100%;
-    padding: 0 10px;
     margin: 0 auto;
+    overflow: hidden;
   }
-  /* .my-photo {
-
-    border: 1px solid #000;
-  } */
 }
 
 /* ----- Print PDF ---------*/
@@ -412,8 +379,6 @@ h3 {
   .wrapper {
     border: 1px solid #eee;
     border-radius: 20px;
-    /* padding: 2px; */
-
     overflow: hidden;
     display: flex;
 
@@ -423,7 +388,6 @@ h3 {
   .main-content {
     background-color: #e4e7ec;
     border-radius: 0 20px 20px 0;
-    /* height: auto; */
   }
 
   p,
