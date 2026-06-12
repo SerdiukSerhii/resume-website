@@ -42,7 +42,7 @@ p {
   flex-direction: row-reverse;
   justify-content: center;
   border-radius: 20px;
-  max-width: 980px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: #f0f0f5;
 }
@@ -50,7 +50,7 @@ p {
 /* Main content */
 
 .main-content {
-  padding: 20px 20px 20px 40px;
+  padding: 10px 20px 20px 40px;
   box-sizing: border-box;
   height: 100%;
 }
@@ -131,17 +131,17 @@ p {
   line-height: 1.1;
   letter-spacing: 4px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-align: center;
 }
 
 .my-profession {
   color: #000;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -180,7 +180,7 @@ p {
   font-size: 22px;
   line-height: 27px;
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .my-projects-list {
@@ -235,7 +235,7 @@ p {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .work-experience-container {
@@ -295,7 +295,7 @@ p {
   font-weight: 700;
   font-size: 22px;
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
 }
 
 .education-university {
@@ -382,7 +382,7 @@ h3 {
     overflow: hidden;
     display: flex;
 
-    zoom: 0.849;
+    zoom: 0.8435;
   }
 
   .main-content {
