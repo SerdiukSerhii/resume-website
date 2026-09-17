@@ -28,6 +28,8 @@ This project demonstrates my ability to build clean, responsive, and accessible 
 ```text
 resume-website/
 ├── index.html
+├── backend.html
+├── fullstack.html
 ├── css/
 │   └── styles.css
 ├── img/
@@ -56,4 +58,4 @@ Open `index.html` in your browser.
 **Serhii Serdiuk**
 Frontend Developer
 
-GitHub: https://github.com/SerdiukSerhii
+[GitHub](https://github.com/SerdiukSerhii)
