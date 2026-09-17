@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: #f6f6fa;
-  padding: 20px;
+  padding: 10px 20px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.4;
 }
@@ -36,6 +40,41 @@ p {
 .text-accent {
   color: #3c3d3f;
 }
+
+/* Nav */
+
+.resume-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 0;
+}
+
+.resume-nav a {
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #214b92;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease;
+}
+
+.resume-nav a:hover {
+  background-color: #e8e8e8;
+  color: #000;
+}
+
+.resume-nav a.active {
+  background-color: #e8e8e8;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Wrapper */
 
 .wrapper {
   display: flex;
@@ -198,6 +237,12 @@ p {
   margin-bottom: 6px;
 }
 
+.my-projects-item-name {
+  font-weight: 700;
+  color: #000;
+  font-size: 16px;
+}
+
 .my-projects-item-link {
   color: #005fff;
   font-weight: 400;
@@ -358,6 +403,16 @@ h3 {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+  }
+
+  .resume-nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .resume-nav a {
+    width: 100%;
+    text-align: center;
   }
 }
 
